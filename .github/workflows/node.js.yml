@@ -33,7 +33,6 @@ jobs:
       with:
         name: webpack artifacts
         path: public
-    - name: npm install, and test
         CI: true    
   build:
     runs-on: ubuntu-latest
